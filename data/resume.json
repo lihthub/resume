@@ -1,0 +1,67 @@
+{
+	"full_name" : "李海涛",
+	"sex" : "男",
+	"age" : "24",
+	"city" : "南京",
+	"highest_edu" : "本科",
+	"work_years" : "3",
+	"phone" : "18701372660",
+	"email" : "lihaitaomail@126.com",
+	"github" : "https://github.com/lihthub",
+	"profile_photo" : "images/lihaitao.png",
+	"position_applied" : "Java工程师",
+	"work_city" : "南京",
+	"work_exp" :
+	[
+		{
+			"form_date" : "2016.03",
+			"to_date" : "2018.08",
+			"company" : "北京神州数码云计算有限公司",
+			"position" : "Java工程师",
+			"description" : "负责神州云计算 Marketplace 项目（云市场）后端开发及前端 JavaScript 数据绑定<br>神州云计算网址 http://www.dcclouds.com/"
+		},
+		{
+			"form_date" : "2014.12",
+			"to_date" : "2016.03",
+			"company" : "北京北控伟仕软件工程技术有限公司",
+			"position" : "Java工程师",
+			"description" : "负责移动医疗全流程微信平台、北京社会保险管理信息系统（五险系统）、北控伟仕OA办公系统、北京劳动能力鉴定系统的开发与维护"
+		}
+	],
+	"project_exp" :
+	[
+		{
+			"form_date" : "2016.03",
+			"to_date" : "2018.08",
+			"project_name" : "神州云计算云市场（www.dcclouds.com）",
+			"position" : "Java工程师",
+			"description" : "云市场是为了推广各类云计算资源，云应用及云专业化服务而搭建的一个 B2B 电商平台，致力于整合全球云产业资源，方便客户查询和体验各类 Saas 产品，以及定制自己的个性化服务，同时平台还整合展示了业内各大会议和活动信息并提供报名入口。<br>后端技术：Spring, SpringMVC, SpringDataJPA, SpringBoot, Shiro, MySQL, SiteMesh<br>前端技术：Bootstrap, jQuery, Sea.js<br>本人负责后端开发，前端数据绑定，以及前端部分 JavaScript 插件的调优。"
+		},
+		{
+			"form_date" : "2015.06",
+			"to_date" : "2016.03",
+			"project_name" : "移动医疗全流程微信平台",
+			"position" : "Java工程师",
+			"description" : "全流程是指通过微信、支付宝、手机APP等多种媒介进行移动端辅助医疗服务的应用。包含的功能有：<br>1.关于医院：医院概况，科室介绍，专家介绍，科室分布，医院动态，来院导航<br>2.服务：预约挂号，报告查询，排队叫号<br>3.我的：个人信息，订单管理，满意度调查，在线支付（非菜单项）<br>主要技术：Spring, SpringMVC, MyBatis, Oracle, ActiveMQ, jQueryMoblie<br>本人负责绍兴第二医院、内蒙古国际蒙医医院、石家庄市藁城人民医院的微信公众号平台的开发、部署与实施。"
+		}
+	],
+	"professional_skills" : "Java基础：集合，泛型，Annotation，I/O，多线程，网络编程，Java8新特性<br>数据库：SQL语法，JDBCAPI，MySQL，数据库连接池<br>Web基础：JavaScript，HTTP/TCP协议，Servlet，JSP，Tomcat<br>Web主流框架：Spring，SpringMVC，MyBatis，ApacheShiro，SpringBoot，SpringCloud<br>开发工具：IntelliJIDEA，Eclipse<br>其他：Git，Maven，Linux，Redis，MongoDB，Nginx，Docker，Dubbo，Jenkins",
+	"edu_exp" :
+	[
+		{
+			"form_date" : "2011.09",
+			"to_date" : "2014.12",
+			"school" : "江西科技学院",
+			"major" : "机电一体化工程",
+			"degree" : "本科"
+		},
+		{
+			"form_date" : "2011.09",
+			"to_date" : "2014.07",
+			"school" : "江西科技学院",
+			"major" : "机电一体化技术",
+			"degree" : "专科"
+		}
+	],
+	"self_evaluation" : "做自己喜欢做的事，做自己擅长做的事！"
+}
