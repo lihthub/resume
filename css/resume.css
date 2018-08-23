@@ -48,7 +48,6 @@ body {
 	line-height: 1.5;
 	float: left;
 	word-break: break-word;
-	-webkit-font-smoothing: antialiased;
 }
 .profile .basic-info .full-name {
 	font-size: 34px;
@@ -96,7 +95,6 @@ body {
 	padding-left: 40px;
 	line-height: 1.5;
 	word-break: break-word;
-	-webkit-font-smoothing: antialiased;
 }
 .timeline-point {
 	width: 20px;
