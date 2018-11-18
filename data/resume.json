@@ -53,7 +53,14 @@
 			"to_date" : "2014.12",
 			"school" : "江西科技学院",
 			"major" : "机电一体化工程",
-			"degree" : "本科"
+			"degree" : "本科（自考）"
+		},
+		{
+			"form_date" : "2011.09",
+			"to_date" : "2014.07",
+			"school" : "江西科技学院",
+			"major" : "机电一体化技术",
+			"degree" : "专科"
 		}
 	],
 	"self_evaluation" : "做自己喜欢做的事，做自己擅长做的事！"
