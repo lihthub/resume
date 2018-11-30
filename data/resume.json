@@ -18,6 +18,7 @@
 			"to_date" : "2018.08",
 			"company" : "神州数码（中国）有限公司",
 			"position" : "Java工程师",
+			"city" : "北京",
 			"description" : "负责神州云计算 Marketplace 项目（云市场）后端开发及前端 JavaScript 数据绑定<br>神州云计算网址 http://www.dcclouds.com/"
 		},
 		{
@@ -25,6 +26,7 @@
 			"to_date" : "2016.03",
 			"company" : "北京北控伟仕软件工程技术有限公司",
 			"position" : "Java工程师",
+			"city" : "北京",
 			"description" : "负责移动医疗全流程微信平台、北京社会保险管理信息系统（五险系统）、北控伟仕OA办公系统、北京劳动能力鉴定系统的开发与维护"
 		}
 	],
