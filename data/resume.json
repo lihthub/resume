@@ -55,7 +55,7 @@
 			"description" : "全流程是指通过微信、支付宝、手机APP等多种媒介进行移动端辅助医疗服务的应用，需接入医院信息系统（HIS）。包含的功能有：<br><br>1. 关于医院：医院概况，科室介绍，专家介绍，科室分布，医院动态，来院导航<br>2. 服务：预约挂号，报告查询，排队叫号<br>3. 我的：个人信息，订单管理，满意度调查，在线支付（非菜单项）<br><br>主要技术：Spring, Spring MVC, MyBatis, Oracle, ActiveMQ, jQuery Moblie<br><br>本人负责绍兴第二医院、内蒙古国际蒙医医院、石家庄市藁城人民医院的微信公众号平台的技术架构搭建与设计，前后端功能模块的开发，以及后期部署与实施，并在医院同院方HIS系统技术人员进行联合调试。"
 		}
 	],
-	"professional_skills" : "1. 有丰富的Java Web开发经验，Java基础扎实，掌握常用集合、I/O、多线程、反射等Java语言高级特性<br>2. 熟悉常用关系型数据库MySQL、Oracle的设计与开发，掌握基本SQL语法、数据库事务处理与连接池管理<br>3. 掌握Servlet，Listener，JSP，Tomcat等Web基础，掌握JavaScript、HTML/CSS<br>4. 熟悉Web主流框架的使用，如Spring，Spring MVC，MyBatis，Shiro，Spring Boot等<br>5. 熟练使用Eclipse、IntelliJ IDEA等IDE，熟悉Git、Maven、Jenkins等工程化工具<br>6. 熟悉Linux基本操作，熟悉分布式架构，对Redis，MongoDB等技术有一定了解",
+	"professional_skills" : "1. 有丰富的Java Web开发经验，Java基础扎实，掌握常用集合、I/O、多线程、反射等Java语言高级特性<br>2. 熟悉常用关系型数据库MySQL、Oracle的设计与开发，掌握基本SQL语法、数据库事务处理与连接池管理<br>3. 掌握Servlet，Listener，JSP，Tomcat等Web基础，掌握JavaScript、HTML/CSS<br>4. 熟悉Web主流框架的使用，如Spring，Spring MVC，MyBatis，Shiro，Spring Boot等<br>5. 熟练使用Eclipse、IntelliJ IDEA等IDE，熟悉Git、Maven、Jenkins等工程化工具",
 	"edu_exp" :
 	[
 		{
