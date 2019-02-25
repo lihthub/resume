@@ -6,17 +6,17 @@ $(function() {
 		var thisYear = today.getFullYear();
 		var age;
 		if (today.getTime() > birthday.getTime()) {
-			age = thisYear - birthdayYear + 1;
-		} else {
 			age = thisYear - birthdayYear;
+		} else {
+			age = thisYear - birthdayYear - 1;
 		}
 		var work_years;
 		var workDate = new Date(result.work_date);
 		var workYear = workDate.getFullYear();
 		if (today.getTime() > workDate.getTime()) {
-			work_years = thisYear - workYear + 1;
-		} else {
 			work_years = thisYear - workYear;
+		} else {
+			work_years = thisYear - workYear - 1;
 		}
 		var html = '<div class="profile"><div class="profile-photo"><img src="' + result.profile_photo + '"></div><div class="basic-info"><div class="full-name">' + result.full_name + '</div><div><span>' + result.sex + '&nbsp;&nbsp;</span><span>' + age + '&nbsp;&nbsp;</span><span>' + result.city + '&nbsp;&nbsp;</span><span style="color:#bbb">|&nbsp;&nbsp;</span><span>' + result.highest_edu + '&nbsp;&nbsp;</span><span>' + work_years + '年工作经验</span></div><div><i class="fa fa-mobile icon-color font-16px" aria-hidden="true"></i> <span>' + result.phone + '&nbsp;&nbsp;</span><i class="fa fa-envelope-o icon-color" aria-hidden="true"></i> <span>' + result.email + '&nbsp;&nbsp;</span><i class="fa fa-github icon-color" aria-hidden="true"></i> <span>' + result.github + '</span></div></div></div><div class="details"><div class="item"><div class="item-title"><img src="images/ico_career_objective.png"><span>求职意向</span></div><div class="item-line"></div><div class="item-detail">' + result.position_applied + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + result.work_city + '</div></div><div class="item"><div class="item-title"><img src="images/ico_work_exp.png"><span>工作经历</span></div><div class="item-line"></div><div class="item-detail">';
 		var workExp = result.work_exp;
