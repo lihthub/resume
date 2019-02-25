@@ -24,7 +24,7 @@ $(function() {
 			html += '<div class="exp"><div class="date">' + workExp[i].form_date + '&nbsp;-&nbsp;' + workExp[i].to_date + '</div><div class="timeline-point">';
 			if (workExp.length > 1 && i == 0) {
 				html += '<img class="timeline-top-img" src="images/timeline_top.png">';
-			} else if (workExp.length > 1 && i == workExp.length - 1) {
+			} else if (workExp.length > 1 && i != 0) {
 				html += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 			}
 			html += '</div><div class="exp-title">' + workExp[i].company + '&nbsp;&nbsp;' + workExp[i].position + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + workExp[i].city + '</div></div>';
@@ -40,7 +40,7 @@ $(function() {
 			html += '<div class="exp"><div class="date">' + projectExp[i].form_date + '&nbsp;-&nbsp;' + projectExp[i].to_date + '</div><div class="timeline-point">';
 			if (projectExp.length > 1 && i == 0) {
 				html += '<img class="timeline-top-img" src="images/timeline_top.png">';
-			} else if (projectExp.length > 1 && i == projectExp.length - 1) {
+			} else if (projectExp.length > 1 && i != 0) {
 				html += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 			}
 			html += '</div><div class="exp-title">' + projectExp[i].project_name + '&nbsp;&nbsp;' + projectExp[i].position + '</div></div>';
@@ -56,7 +56,7 @@ $(function() {
 			html += '<div class="edu"><div class="date">' + eduExp[i].form_date + '&nbsp;-&nbsp;' + eduExp[i].to_date + '</div><div class="timeline-point">';
 			if (eduExp.length > 1 && i == 0) {
 				html += '<img class="timeline-top-img" src="images/timeline_top.png">';
-			} else if (eduExp.length > 1 && i == eduExp.length - 1) {
+			} else if (eduExp.length > 1 && i != 0) {
 				html += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 			}
 			html += '</div><div class="edu-detail">' + eduExp[i].school + '&nbsp;&nbsp;' + eduExp[i].major + '&nbsp;&nbsp;' + eduExp[i].degree + '</div></div>';
