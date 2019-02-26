@@ -2,13 +2,14 @@ $(function() {
 	$.getJSON("data/resume.json", function(result) {
 		var birthday = new Date(result.birthday);
 		var today = new Date();
-		var birthdayYear = birthday.getFullYear();
+		var birthYear = birthday.getFullYear();
 		var thisYear = today.getFullYear();
+		birthday.setFullYear(thisYear);
 		var age;
 		if (today.getTime() > birthday.getTime()) {
-			age = thisYear - birthdayYear;
+			age = thisYear - birthYear;
 		} else {
-			age = thisYear - birthdayYear - 1;
+			age = thisYear - birthYear - 1;
 		}
 		var work_years;
 		var workDateTo = today;
@@ -19,6 +20,7 @@ $(function() {
 			workDateTo = new Date(result.work_date_to);
 			workDateToYear = workDateTo.getFullYear();
 		}
+		workDateFrom.setFullYear(workDateToYear);
 		if (workDateTo.getTime() > workDateFrom.getTime()) {
 			work_years = workDateToYear - workDateFromYear;
 		} else {
