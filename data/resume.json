@@ -5,7 +5,6 @@
 	"city" : "南京",
 	"highest_edu" : "本科",
 	"work_date_from" : "2014.12.01",
-	"work_date_to" : "2018.08.10",
 	"phone" : "18701372660",
 	"email" : "lihaitaomail@126.com",
 	"github" : "https://github.com/lihthub",
@@ -38,14 +37,14 @@
 			"to_date" : "2018.08",
 			"project_name" : "神州云计算云市场（www.dcclouds.com）",
 			"position" : "Java工程师",
-			"description" : "云市场是为了推广各类云计算资源，云应用及云专业化服务而搭建的一个 B2B 电商平台，致力于整合全球云产业资源，方便客户查询和体验各类 Saas 产品，以及定制自己的个性化服务，同时平台还整合展示了业内各大会议和活动信息并提供报名入口。<br><br>后端技术：Spring, Spring MVC, Spring Data JPA, Spring Boot, Shiro, MySQL, SiteMesh<br>前端技术：Bootstrap, jQuery, Sea.js<br><br>本人负责云市场后端功能模块开发，前端数据绑定，以及前端部分 JavaScript 插件的调优。"
+			"description" : "云市场是为了推广各类云计算资源，云应用及云专业化服务而搭建的一个 B2B 电商平台，致力于整合全球云产业资源，方便客户查询和体验各类 Saas 产品，以及定制自己的个性化服务，同时平台还整合展示了业内各大会议和活动信息并提供报名入口。<br><br>后端技术：Spring, Spring MVC, Spring Data JPA, Spring Boot, Shiro, MySQL, SiteMesh<br>前端技术：Bootstrap, jQuery, Sea.js<br><br>本人负责该项目注册、云市场、活动、用户中心等部分功能模块的后端开发、前端数据绑定以及前端部分 JavaScript 插件的调优。"
 		},
 		{
 			"form_date" : "2016.03",
 			"to_date" : "2016.04",
 			"project_name" : "神州数码云安全管理平台（www.dcclouds.com）",
 			"position" : "Java工程师",
-			"description" : "云安全管理平台用于管理神州数码安全云Saas服务平台，便于用户将自己的网站申请接入神州数码云Web防火墙用于安全防护，免受黑客威胁。共有三个模块：<br><br>1. 云防御：CDN加速、防Ddos、防跨站、防注入、防盗链、防篡改、防挂马、防CC攻击等，云Web防火墙保护网站免受黑客威胁<br>2. 智能终端管理：移动设备管理、移动应用管理、移动内容管理<br>3. 安全渗透扫描：黑白盒扫描、修复前安全评估报告、定制化的网站安全防护规则、修复后网站安全评估对比<br><br>本人负责后端功能模块开发，前端界面开发以及数据绑定。"
+			"description" : "云安全管理平台用于管理神州数码安全云Saas服务平台，便于用户将自己的网站申请接入神州数码云Web防火墙用于安全防护，免受黑客威胁。共有三个模块：<br><br>1. 云防御：CDN加速、防Ddos、防跨站、防注入、防盗链、防篡改、防挂马、防CC攻击等，云Web防火墙保护网站免受黑客威胁<br>2. 智能终端管理：移动设备管理、移动应用管理、移动内容管理<br>3. 安全渗透扫描：黑白盒扫描、修复前安全评估报告、定制化的网站安全防护规则、修复后网站安全评估对比<br><br>本人负责该项目云防御模块的后端功能模块开发、前端界面开发以及数据绑定。"
 		},
 		{
 			"form_date" : "2015.06",
@@ -55,7 +54,7 @@
 			"description" : "全流程是指通过微信、支付宝、手机APP等多种媒介进行移动端辅助医疗服务的应用，需接入医院信息系统（HIS）。包含的功能有：<br><br>1. 关于医院：医院概况，科室介绍，专家介绍，科室分布，医院动态，来院导航<br>2. 服务：预约挂号，报告查询，排队叫号<br>3. 我的：个人信息，订单管理，满意度调查，在线支付（非菜单项）<br><br>主要技术：Spring, Spring MVC, MyBatis, Oracle, ActiveMQ, jQuery Moblie<br><br>本人负责绍兴第二医院、内蒙古国际蒙医医院、石家庄市藁城人民医院的微信公众号平台的技术架构搭建与设计，前后端功能模块的开发，以及后期部署与实施，并在医院同院方HIS系统技术人员进行联合调试。"
 		}
 	],
-	"professional_skills" : "1. 有丰富的Java Web开发经验，Java基础扎实，掌握常用集合、I/O、多线程、反射等Java语言高级特性<br>2. 熟悉常用关系型数据库MySQL、Oracle的设计与开发，掌握基本SQL语法、数据库事务处理与连接池管理<br>3. 掌握Servlet，Listener，JSP，Tomcat等Web基础，掌握JavaScript、HTML/CSS<br>4. 熟悉Web主流框架的使用，如Spring，Spring MVC，MyBatis，Shiro，Spring Boot等<br>5. 熟练使用Eclipse、IntelliJ IDEA等IDE，熟悉Git、Maven、Jenkins等工程化工具",
+	"professional_skills" : "1. 有丰富的Java Web开发经验，Java基础扎实，掌握常用集合、I/O、多线程、反射等Java语言高级特性<br>2. 熟悉常用关系型数据库MySQL、Oracle的设计与开发，掌握基本SQL语法、数据库事务处理与连接池管理<br>3. 掌握Servlet、Listener、JSP、Tomcat等Web基础，掌握JavaScript、HTML/CSS、jQuery等前端技术<br>4. 熟悉Web主流框架的使用，如Spring、Spring MVC、MyBatis、Shiro、Spring Boot等<br>5. 熟练使用Eclipse、IntelliJ IDEA等IDE，熟悉Linux基本操作，熟悉Git、Maven、Jenkins等工程化工具",
 	"edu_exp" :
 	[
 		{

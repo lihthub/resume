@@ -16,10 +16,6 @@ $(function() {
 		var workDateToYear = thisYear;
 		var workDateFrom = new Date(result.work_date_from);
 		var workDateFromYear = workDateFrom.getFullYear();
-		if (result.work_date_to) {
-			workDateTo = new Date(result.work_date_to);
-			workDateToYear = workDateTo.getFullYear();
-		}
 		workDateFrom.setFullYear(workDateToYear);
 		if (workDateTo.getTime() > workDateFrom.getTime()) {
 			work_years = workDateToYear - workDateFromYear;
