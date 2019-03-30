@@ -14,6 +14,14 @@
 	"work_exp" :
 	[
 		{
+			"form_date" : "2019.03",
+			"to_date" : "至今",
+			"company" : "江苏敏捷科技股份有限公司",
+			"position" : "Java工程师",
+			"city" : "南京",
+			"description" : "负责 AgileCloud 租户管理平台后端开发"
+		},
+		{
 			"form_date" : "2016.03",
 			"to_date" : "2018.08",
 			"company" : "神州数码（中国）有限公司",
