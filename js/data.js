@@ -67,7 +67,7 @@ window.resume = {
 	[
 		{
 			"form_date" : "2011.09",
-			"to_date" : "2014.12",
+			"to_date" : "2015.07",
 			"school" : "江西科技学院",
 			"major" : "机电一体化工程",
 			"degree" : "本科"
