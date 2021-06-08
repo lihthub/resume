@@ -17,9 +17,9 @@ window.resume = {
 			"form_date" : "2019.03",
 			"to_date" : "至今",
 			"company" : "江苏敏捷科技股份有限公司",
-			"position" : "Java工程师",
+			"position" : "技术经理",
 			"city" : "南京",
-			"description" : "负责敏捷DM企业网盘产品的后端开发"
+			"description" : "负责敏捷DM企业网盘的后台微服务技术架构搭建、核心模块开发，负责DGS安全卫士服务端4.0版本的核心模块开发、管理推进以及代码质量管理工作"
 		},
 		{
 			"form_date" : "2016.03",
@@ -27,7 +27,7 @@ window.resume = {
 			"company" : "神州数码（中国）有限公司",
 			"position" : "Java工程师",
 			"city" : "北京",
-			"description" : "负责神州云计算Marketplace项目（云市场）的后端开发与前端js数据绑定"
+			"description" : "负责神州云计算Marketplace项目（云市场）的后端开发与前端js数据绑定工作"
 		},
 		{
 			"form_date" : "2014.12",
@@ -35,7 +35,7 @@ window.resume = {
 			"company" : "北京北控伟仕软件工程技术有限公司",
 			"position" : "Java工程师",
 			"city" : "北京",
-			"description" : "负责移动医疗全流程微信平台、北京社会保险管理信息系统（五险系统）的前后端开发"
+			"description" : "负责移动医疗全流程微信平台、北京社会保险管理信息系统（五险系统）的前后端开发工作"
 		}
 	],
 	"project_exp" :
@@ -68,7 +68,7 @@ window.resume = {
 		{
 			"form_date" : "2011.09",
 			"to_date" : "2015.07",
-			"school" : "江西科技学院",
+			"school" : "江西理工大学",
 			"major" : "机电一体化工程",
 			"degree" : "本科"
 		}
