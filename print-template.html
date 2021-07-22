@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/resume.css">
 	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jspdf.min.js"></script>
 	<script type="text/javascript" src="js/data.js"></script>
 	<script type="text/javascript" src="js/resume.js"></script>
 	<style type="text/css">
@@ -22,5 +23,13 @@
 	<div class="container">
 		<div class="resume-content" id="resume-content"></div>
 	</div>
+	<script type="text/javascript">
+		$(function() {
+			const doc = new jsPDF();
+			doc.fromHTML($('body')[0], 15, 15, { 'width': 170 });
+			doc.save("resume.pdf");
+			setTimeout(function() {window.close();}, 1000);
+		});
+	</script>
 </body>
 </html>

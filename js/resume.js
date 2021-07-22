@@ -157,14 +157,4 @@ $(function() {
 			$password.css('border-color', 'gray');
 		}
 	});
-
-	$('#print-template').load('print-template.html');
-
-	$('#pdf-btn').on('click', function() {
-		const doc = new jsPDF();
-		$('#print-template').load('print-template.html', function() {
-			doc.fromHTML($('#print-template')[0], 15, 15, { 'width': 170 });
-			doc.save("resume.pdf");
-		});
-	});
 });
