@@ -1,11 +1,13 @@
+// crypto_enabled 属性值为 true 时表示数据用 RC4 算法进行加密，
 window.resume = {
+	"crypto_enabled" : true,
 	"full_name" : "李海涛",
 	"sex" : "男",
 	"birthday" : "1994-01-12",
 	"city" : "南京",
 	"highest_edu" : "本科",
 	"work_date_from" : "2014-12-01",
-	"phone" : "187********60",
+	"phone" : "U2FsdGVkX1/f/7sh6pS2SWgrn+23SpDjULIv",
 	"email" : "lihaitaomail@126.com",
 	"github" : "https://github.com/lihthub",
 	"profile_photo" : "images/lihaitao.png",
@@ -17,9 +19,9 @@ window.resume = {
 			"form_date" : "2019.03",
 			"to_date" : "2021.06",
 			"company" : "江苏敏捷科技股份有限公司",
-			"position" : "Java工程师 & 技术经理",
+			"position" : "DGS技术经理",
 			"city" : "南京",
-			"description" : "1.负责敏捷DM企业网盘的后台微服务技术架构搭建、核心模块开发；<br>2.担任DGS技术经理，负责敏捷DGS安全卫士服务端4.0版本的核心模块开发、管理推进以及代码质量管理工作"
+			"description" : "1. 负责敏捷DM企业网盘的后台微服务技术架构搭建、核心模块开发；<br>2. 担任DGS技术经理，负责敏捷DGS安全卫士服务端4.0版本的管理推进、核心模块开发以及代码质量管理工作<br>3. 在职期间，参与搭建了Agile Platform微服务平台，并主导完成了DM 1.0单体架构到DM 2.0微服务架构以及DGS 1.0单体架构到DGS 4.0微服务架构的升级改造<br>4. 主导完成了DGS 4.0各业务模块的优化与重构，带领整个团队拼搏了一年时间使其成功上线"
 		},
 		{
 			"form_date" : "2016.03",
@@ -45,7 +47,7 @@ window.resume = {
 			"to_date" : "2021.06",
 			"project_name" : "敏捷科技·DGS数据安全卫士",
 			"position" : "Java工程师 & 技术经理",
-			"description" : "DGS是一套数据安全管理一体化平台，采用全方位、全内容、全过程的数据管理与安全保护手段，通过智能安全分析技术、操作系统内核技术、高强度的透明加密技术、灵活易用的安全策略，为企业提供多重数据安全防护服务，有效地解决诸多数据安全隐患。主要包含以下模块：<br><br>1. 基础平台：授权设置，用户管理，域同步管理，流程管理，敏感词管理，全文检索，系统设置，终端管理，审计日志<br>2. 数据安全DG：文件安全，文件外发，文件授权，打印安全，备份安全<br>3. 文件追溯DT：屏幕溯源，文件溯源，打印溯源，移动端溯源，文件追踪<br>4. 数据防泄漏DLP：邮件管控，即时通讯管控，移动外设管控，文件操作管控，网络传输管控<br>5. 安全网关SXG：应用安全网关SAG，加解密网关SFG，邮件安全网关SMG，数据脱敏网关SDG<br><br>主要技术：Spring Boot, Spring Cloud Alibaba, MyBatis, MySQL, Redis, RabbitMQ, Elasticsearch, MinIO"
+			"description" : "DGS是一套数据安全管理一体化平台，采用全方位、全内容、全过程的数据管理与安全保护手段，通过智能安全分析技术、操作系统内核技术、高强度的透明加密技术、灵活易用的安全策略，为企业提供多重数据安全防护服务，有效地解决诸多数据安全隐患。主要包含以下模块：<br><br>1. 基础平台：授权设置，用户管理，域同步管理，流程管理，敏感词管理，全文检索，系统设置，终端管理，审计日志<br>2. 数据安全(DG)：文件安全，文件外发，文件授权，打印安全，备份安全<br>3. 文件追溯(DT)：屏幕溯源，文件溯源，打印溯源，移动端溯源，文件追踪<br>4. 数据防泄漏(DLP)：邮件管控，即时通讯管控，移动外设管控，文件操作管控，网络传输管控<br>5. 安全网关(SXG)：应用安全网关(SAG)，加解密网关(SFG)，邮件安全网关(SMG)，数据脱敏网关(SDG)<br><br>主要技术：Spring Boot, Spring Cloud Alibaba, MyBatis, MySQL, Redis, RabbitMQ, Elasticsearch, MinIO"
 		},
 		{
 			"form_date" : "2019.03",
@@ -73,11 +75,11 @@ window.resume = {
 	"edu_exp" :
 	[
 		{
-			"form_date" : "2011.09",
-			"to_date" : "2014.12",
-			"school" : "江西科技学院",
-			"major" : "机电一体化工程",
-			"degree" : "本科"
+			"form_date" : "U2FsdGVkX1+qMR0+DRJEm7n0PGgwlwg=",
+			"to_date" : "U2FsdGVkX1+wl8ovrUQwIfEYPbv/v3Y=",
+			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
+			"major" : "U2FsdGVkX19u5JnEuvjPMUJkPCCunEHz4kz9Hv0hux213Oc5Cw==",
+			"degree" : "U2FsdGVkX18fu+mXVsM95yQC4NhzjQ=="
 		}
 	],
 	"self_evaluation" : "一直以来我对软件开发都充满着极大的热情，对互联网领域的技术变化有敏锐的嗅觉。会经常阅读开源技术网站，自我感觉学习能力不错，喜欢钻研新技术，会自己私下开发一些小例子发布到开源技术网站，对自己的代码质量有较高要求，喜欢编写有创造性的、优雅的代码，对项目的技术攻坚、架构设计比较感兴趣，未来我将以技术方向为发展目标努力成为一名优秀的资深高级工程师。"

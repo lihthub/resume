@@ -1,4 +1,6 @@
 $(function() {
+	var enableCrypto = resume.crypto_enabled;
+
 	// 根据生日计算年龄
 	var birthday = new Date(resume.birthday + 'T00:00:00');
 	var today = new Date();
@@ -25,8 +27,37 @@ $(function() {
 		workYears = workDateToYear - workDateFromYear - 1;
 	}
 
+	var resumeCache = {
+		type : 'default',
+		phone : '180******00',
+		edu_exp : [
+			{
+				form_date : 'X年X月',
+				to_date : 'X年X月',
+				school : 'XXX大学',
+				major : 'XXX专业',
+				degree : 'XXX学历'
+			}
+		]
+	}
+	var _resume_cache = sessionStorage.getItem('resume_cache');
+	if (_resume_cache) {
+		try {
+			_resume_cache = JSON.parse(_resume_cache);
+			if (_resume_cache.type === 'session') {
+				resumeCache = _resume_cache;
+				$('.tools-bar').append('<div class="menu" title="下载PDF"><a target="_blank" href="pdf/resume.pdf"><i class="fa fa-file-pdf-o icon-color" aria-hidden="true"></i></a></div>');
+			}
+		} catch (err) {
+			console.log(err);
+		}
+	}
+	var phoneNumber = enableCrypto ? resumeCache.phone : resume.phone;
+	var eduExp = enableCrypto ? resumeCache.edu_exp : resume.edu_exp;
+
 	// 求职意向 工作经历
-	var content = '<div class="profile"><div class="profile-photo"><img src="' + resume.profile_photo + '"></div><div class="basic-info"><div class="full-name">' + resume.full_name + '</div><div><span>' + resume.sex + '&nbsp;&nbsp;</span><span>' + age + '&nbsp;&nbsp;</span><span>' + resume.city + '&nbsp;&nbsp;</span><span style="color:#bbb">|&nbsp;&nbsp;</span><span>' + resume.highest_edu + '&nbsp;&nbsp;</span><span>' + workYears + '年工作经验</span></div><div><i class="fa fa-mobile icon-color font-16px" aria-hidden="true"></i> <span>' + resume.phone + '&nbsp;&nbsp;</span><i class="fa fa-envelope-o icon-color" aria-hidden="true"></i> <span>' + resume.email + '&nbsp;&nbsp;</span><i class="fa fa-github icon-color" aria-hidden="true"></i> <span>' + resume.github + '</span></div></div></div><div class="details"><div class="item"><div class="item-title"><img src="images/ico_career_objective.png"><span>求职意向</span></div><div class="item-line"></div><div class="item-detail">' + resume.position_applied + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + resume.work_city + '</div></div><div class="item"><div class="item-title"><img src="images/ico_work_exp.png"><span>工作经历</span></div><div class="item-line"></div><div class="item-detail">';
+	var content = '<div class="profile"><div class="profile-photo"><img src="' + resume.profile_photo + '"></div><div class="basic-info"><div class="full-name">' + resume.full_name + '</div><div><span>' + resume.sex + '&nbsp;&nbsp;</span><span>' + age + '&nbsp;&nbsp;</span><span>' + resume.city + '&nbsp;&nbsp;</span><span style="color:#bbb">|&nbsp;&nbsp;</span><span>' + resume.highest_edu + '&nbsp;&nbsp;</span><span>' + workYears + '年工作经验</span></div><div><i class="fa fa-mobile icon-color font-16px" aria-hidden="true"></i> <span>' + phoneNumber + '&nbsp;&nbsp;</span><i class="fa fa-envelope-o icon-color" aria-hidden="true"></i> <span>' + resume.email + '&nbsp;&nbsp;</span><i class="fa fa-github icon-color" aria-hidden="true"></i> <span>' + resume.github + '</span></div></div></div><div class="details"><div class="item"><div class="item-title"><img src="images/ico_career_objective.png">'
+				+ '<span>求职意向</span></div><div class="item-line"></div><div class="item-detail"><i class="fa fa-tag icon-color" aria-hidden="true"></i> ' + resume.position_applied + '&emsp;&emsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + resume.work_city + '</div></div><div class="item"><div class="item-title"><img src="images/ico_work_exp.png"><span>工作经历</span></div><div class="item-line"></div><div class="item-detail">';
 	var workExp = resume.work_exp;
 	for (var i in workExp) {
 		content += '<div class="exp"><div class="date">' + workExp[i].form_date + '&nbsp;-&nbsp;' + workExp[i].to_date + '</div><div class="timeline-point">';
@@ -35,7 +66,7 @@ $(function() {
 		} else if (workExp.length > 1 && i != 0) {
 			content += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 		}
-		content += '</div><div class="exp-title">' + workExp[i].company + '&nbsp;&nbsp;' + workExp[i].position + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + workExp[i].city + '</div></div>';
+		content += '</div><div class="exp-title"><i class="fa fa-building-o icon-color" aria-hidden="true"></i> ' + workExp[i].company + '&nbsp;&nbsp;<i class="fa fa-tag icon-color" aria-hidden="true"></i> ' + workExp[i].position + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + workExp[i].city + '</div></div>';
 		if (workExp.length > 1 && i != workExp.length - 1) {
 			content += '<div class="timeline"><div class="timeline-right has-timeline">' + workExp[i].description + '</div></div>';
 		} else {
@@ -53,7 +84,7 @@ $(function() {
 		} else if (projectExp.length > 1 && i != 0) {
 			content += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 		}
-		content += '</div><div class="exp-title">' + projectExp[i].project_name + '&nbsp;&nbsp;' + projectExp[i].position + '</div></div>';
+		content += '</div><div class="exp-title"><i class="fa fa-leaf icon-color" aria-hidden="true"></i> ' + projectExp[i].project_name + '&nbsp;&nbsp;<i class="fa fa-tag icon-color" aria-hidden="true"></i> ' + projectExp[i].position + '</div></div>';
 		if (projectExp.length > 1 && i != projectExp.length - 1) {
 			content += '<div class="timeline"><div class="timeline-right has-timeline">' + projectExp[i].description + '</div></div>';
 		} else {
@@ -63,7 +94,6 @@ $(function() {
 
 	// 个人技能 教育经历
 	content += '</div></div><div class="item"><div class="item-title"><img src="images/ico_professional_skills.png"><span>个人技能</span></div><div class="item-line"></div><div class="item-detail">' + resume.professional_skills + '</div></div><div class="item"><div class="item-title"><img src="images/ico_edu_exp.png"><span>教育经历</span></div><div class="item-line"></div><div class="item-detail">';
-	var eduExp = resume.edu_exp;
 	for (var i in eduExp) {
 		content += '<div class="edu"><div class="date">' + eduExp[i].form_date + '&nbsp;-&nbsp;' + eduExp[i].to_date + '</div><div class="timeline-point">';
 		if (eduExp.length > 1 && i == 0) {
@@ -71,7 +101,7 @@ $(function() {
 		} else if (eduExp.length > 1 && i != 0) {
 			content += '<img class="timeline-bottom-img" src="images/timeline_bottom.png">';
 		}
-		content += '</div><div class="edu-detail">' + eduExp[i].school + '&nbsp;&nbsp;' + eduExp[i].major + '&nbsp;&nbsp;' + eduExp[i].degree + '</div></div>';
+		content += '</div><div class="edu-detail"><i class="fa fa-university icon-color" aria-hidden="true"></i> ' + eduExp[i].school + '&emsp;&emsp;<i class="fa fa-book icon-color" aria-hidden="true"></i> ' + eduExp[i].major + '&emsp;&emsp;<i class="fa fa-certificate icon-color" aria-hidden="true"></i> ' + eduExp[i].degree + '</div></div>';
 		if (eduExp.length > 1 && i != eduExp.length - 1) {
 			content += '<div class="timeline"><div class="timeline-right space-timeline"></div></div>';
 		}
@@ -81,4 +111,56 @@ $(function() {
 	content += '</div></div><div class="item"><div class="item-title"><img src="images/ico_self_evaluation.png"><span>自我评价</span></div><div class="item-line"></div><div class="item-detail">' + resume.self_evaluation + '</div></div></div>';
 	
 	$('#resume-content').html(content);
+
+	$('#lock-btn').on('click', function() {
+		$('.popup-mask, .popup').show();
+	});
+
+	$('.ok-btn').on('click', function() {
+		var $password = $('#password');
+		var password = $password.val();
+		if (!password) {
+			return;
+		}
+		try {
+			resumeCache.phone = CryptoJS.RC4.decrypt(resume.phone, password).toString(CryptoJS.enc.Utf8);
+			resumeCache.edu_exp = [];
+			for (var i in resume.edu_exp) {
+				let currEduExp = {};
+				currEduExp.form_date = CryptoJS.RC4.decrypt(resume.edu_exp[i].form_date, password).toString(CryptoJS.enc.Utf8);
+				currEduExp.to_date = CryptoJS.RC4.decrypt(resume.edu_exp[i].to_date, password).toString(CryptoJS.enc.Utf8);
+				currEduExp.school = CryptoJS.RC4.decrypt(resume.edu_exp[i].school, password).toString(CryptoJS.enc.Utf8);
+				currEduExp.major = CryptoJS.RC4.decrypt(resume.edu_exp[i].major, password).toString(CryptoJS.enc.Utf8);
+				currEduExp.degree = CryptoJS.RC4.decrypt(resume.edu_exp[i].degree, password).toString(CryptoJS.enc.Utf8);
+				resumeCache.edu_exp.push(currEduExp);
+			}
+		} catch (err) {
+			console.log(err);
+			alert('密码错误');
+			return;
+		}
+		resumeCache.type = 'session';
+		sessionStorage.setItem('resume_cache', JSON.stringify(resumeCache));
+		location.reload();
+	});
+
+	$('.cancel-btn').on('click', function() {
+		$('#password').val('').css('border-color', 'gray');
+		$('.popup-mask, .popup').hide();
+	});
+
+	$('#password').on('blur', function() {
+		var $password = $('#password');
+		if (!$password.val()) {
+			$password.css('border-color', 'red');
+		} else {
+			$password.css('border-color', 'gray');
+		}
+	});
+
+	$('#pdf-btn').on('click', function() {
+		const doc = new jsPDF();
+		doc.fromHTML($('body').get(0), 15, 15, { 'width': 170 });
+		doc.save("a4.pdf");
+	});
 });

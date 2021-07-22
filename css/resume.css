@@ -2,6 +2,7 @@ body {
 	background-color: #fff;
     font-family: "lucida Grande", Verdana, "Microsoft YaHei";
     font-size: 14px;
+    letter-spacing: 0.5px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 .container {
@@ -184,4 +185,57 @@ body {
 }
 .menu:first-child {
 	border-top: 1px solid #e8e8e8;
+}
+
+.popup-mask {
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	position: fixed;
+	opacity: 0.6;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: none;
+}
+.popup {
+	background-color: #fff;
+	border: 1px solid #000;
+	z-index: 10000;
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -50px;
+	text-align: center;
+	display: none;
+}
+.popup .popup-content {
+	padding: 10px;
+}
+.popup .popup-content input {
+	width: 220px;
+	height: 25px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.popup .popup-bottom {
+	padding: 10px;
+}
+.popup .popup-bottom .cancel-btn {
+	color: #000;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 10px;
+}
+.popup .popup-bottom .ok-btn {
+	background-color: #788396;
+	color: #000;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 10px;
 }
