@@ -1,4 +1,5 @@
-// crypto_enabled 属性值为 true 时表示数据用 RC4 算法进行加密，
+// crypto_enabled 属性值为 true 时表示数据用 RC4 算法进行加密
+// phone 与 edu_exp 的属性值需要用 RC4 算法加密后填写
 window.resume = {
 	"crypto_enabled" : true,
 	"full_name" : "李海涛",
