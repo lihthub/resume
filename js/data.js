@@ -5,7 +5,7 @@ window.resume = {
 	"city" : "南京",
 	"highest_edu" : "本科",
 	"work_date_from" : "2014-12-01",
-	"phone" : "18701372660",
+	"phone" : "187********60",
 	"email" : "lihaitaomail@126.com",
 	"github" : "https://github.com/lihthub",
 	"profile_photo" : "images/lihaitao.png",
