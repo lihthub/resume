@@ -46,7 +46,6 @@ $(function() {
 			_resume_cache = JSON.parse(_resume_cache);
 			if (_resume_cache.type === 'session') {
 				resumeCache = _resume_cache;
-				$('.tools-bar').append('<div class="menu" title="下载PDF"><a target="_blank" href="pdf/resume.pdf"><i class="fa fa-file-pdf-o icon-color" aria-hidden="true"></i></a></div>');
 			}
 		} catch (err) {
 			console.log(err);
@@ -112,13 +111,16 @@ $(function() {
 	
 	$('#resume-content').html(content);
 
+
+	/************************* 监听事件 *************************/
+
 	$('#lock-btn').on('click', function() {
 		$('.popup-mask, .popup').show();
 	});
 
 	$('.ok-btn').on('click', function() {
-		var $password = $('#password');
-		var password = $password.val();
+		let $password = $('#password');
+		let password = $password.val();
 		if (!password) {
 			return;
 		}
@@ -150,11 +152,19 @@ $(function() {
 	});
 
 	$('#password').on('blur', function() {
-		var $password = $('#password');
+		let $password = $('#password');
 		if (!$password.val()) {
 			$password.css('border-color', 'red');
 		} else {
 			$password.css('border-color', 'gray');
 		}
+	});
+
+	$('#pdf-btn').on('mouseover', function() {
+		$('.pdf-tips').show();
+	});
+
+	$('#pdf-btn').on('mouseout', function() {
+		$('.pdf-tips').hide();
 	});
 });
