@@ -35,7 +35,7 @@ $(function() {
 			{
 				form_date : 'X年X月',
 				to_date : 'X年X月',
-				school : 'XXX大学',
+				school : 'XXX学校',
 				major : 'XXX专业',
 				degree : 'XXX学历'
 			}
