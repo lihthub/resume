@@ -29,6 +29,7 @@ $(function() {
 
 	var resumeCache = {
 		type : 'default',
+		time : new Date().getTime(),
 		phone : '180******00',
 		edu_exp : [
 			{
@@ -40,17 +41,8 @@ $(function() {
 			}
 		]
 	}
-	var _resume_cache = sessionStorage.getItem('resume_cache');
-	if (_resume_cache) {
-		try {
-			_resume_cache = JSON.parse(_resume_cache);
-			if (_resume_cache.type === 'session') {
-				resumeCache = _resume_cache;
-			}
-		} catch (err) {
-			console.log(err);
-		}
-	}
+	var _resume_cache = getCache('resume_cache');
+	resumeCache = _resume_cache ? _resume_cache : resumeCache;
 	var phoneNumber = enableCrypto ? resumeCache.phone : resume.phone;
 	var eduExp = enableCrypto ? resumeCache.edu_exp : resume.edu_exp;
 
@@ -142,7 +134,7 @@ $(function() {
 			return;
 		}
 		resumeCache.type = 'session';
-		sessionStorage.setItem('resume_cache', JSON.stringify(resumeCache));
+		setCache('resume_cache', resumeCache);
 		location.reload();
 	});
 
@@ -167,4 +159,25 @@ $(function() {
 	$('#pdf-btn').on('mouseout', function() {
 		$('.pdf-tips').hide();
 	});
+
+	function getCache(key) {
+		let _cache = localStorage.getItem(key);
+		try {
+			if (_cache) {
+				_cache = JSON.parse(_cache);
+				if (_cache.type === 'session' && _cache.time + 30 * 60 * 1000 > new Date().getTime()) {
+					return _cache;
+				}
+			}
+		} catch (err) {
+			console.log(err);
+		}
+		localStorage.setItem(key, null);
+		return null;
+	}
+
+	function setCache(key, value) {
+		value.time = new Date().getTime();
+		localStorage.setItem(key, JSON.stringify(value));
+	}
 });
