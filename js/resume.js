@@ -160,7 +160,8 @@ $(function() {
 
 	$('#pdf-btn').on('click', function() {
 		const doc = new jsPDF();
-		doc.fromHTML($('#print-template')[0].contentWindow, 15, 15, { 'width': 170 });
+		let ifram = $('#print-template')[0].contentWindow;
+		doc.fromHTML(ifram.document.body, 15, 15, { 'width': 170 });
 		doc.save("resume.pdf");
 	});
 });
