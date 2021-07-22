@@ -158,6 +158,8 @@ $(function() {
 		}
 	});
 
+	$('#print-template').load('print-template.html');
+
 	$('#pdf-btn').on('click', function() {
 		const doc = new jsPDF();
 		$('#print-template').load('print-template.html', function() {
