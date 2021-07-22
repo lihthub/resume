@@ -160,11 +160,7 @@ $(function() {
 
 	$('#pdf-btn').on('click', function() {
 		const doc = new jsPDF();
-		let html = 'PDF内容为空';
-		$.get('print-template.html', function(data) {
-			html = data;
-			doc.fromHTML(html, 15, 15, { 'width': 170 });
-			doc.save("resume.pdf");
-		});
+		doc.fromHTML($('#print-template')[0].contentWindow, 15, 15, { 'width': 170 });
+		doc.save("resume.pdf");
 	});
 });
