@@ -80,7 +80,14 @@ window.resume = {
 			"to_date" : "U2FsdGVkX1+6AFMgScHkjbdwStnZin8=",
 			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
 			"major" : "U2FsdGVkX19u5JnEuvjPMUJkPCCunEHz4kz9Hv0hux213Oc5Cw==",
-			"degree" : "U2FsdGVkX18fu+mXVsM95yQC4NhzjQ=="
+			"degree" : "U2FsdGVkX18O+49XS/EEDUBsdDfmdyS63FOh1CJ6VWzzyQ=="
+		},
+		{
+			"form_date" : "U2FsdGVkX1+qMR0+DRJEm7n0PGgwlwg=",
+			"to_date" : "U2FsdGVkX191OgG+3Nqk8xVgfspKuoU=",
+			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
+			"major" : "U2FsdGVkX1+X0+Q+n1+++5M85J40QoZwVopW+bAQSz/1nrmlSQ==",
+			"degree" : "U2FsdGVkX1+xD8X5xQbtOtMmk4fWO5ZIDHl7cl2RYxAnSw=="
 		}
 	],
 	"self_evaluation" : "一直以来我对软件开发都充满着极大的热情，对互联网领域的技术变化有敏锐的嗅觉。会经常阅读开源技术网站，自我感觉学习能力不错，喜欢钻研新技术，会自己私下开发一些小例子发布到开源技术网站，对自己的代码质量有较高要求，喜欢编写有创造性的、优雅的代码，对项目的技术攻坚、架构设计比较感兴趣，未来我将以技术方向为发展目标努力成为一名优秀的资深高级工程师。"
