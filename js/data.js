@@ -7,7 +7,7 @@ window.resume = {
 	"birthday" : "1994-01-12",
 	"city" : "南京",
 	"highest_edu" : "本科",
-	"work_date_from" : "2014-12-01",
+	"work_date_from" : "2015-02-01",
 	"phone" : "U2FsdGVkX1/f/7sh6pS2SWgrn+23SpDjULIv",
 	"email" : "lihaitaomail@126.com",
 	"github" : "https://github.com/lihthub",
@@ -33,7 +33,7 @@ window.resume = {
 			"description" : "负责神州云计算Marketplace项目（云市场）的后端开发与前端js数据绑定工作"
 		},
 		{
-			"form_date" : "2014.12",
+			"form_date" : "2015.02",
 			"to_date" : "2016.02",
 			"company" : "北京北控伟仕软件工程技术有限公司",
 			"position" : "Java工程师",
@@ -77,7 +77,7 @@ window.resume = {
 	[
 		{
 			"form_date" : "U2FsdGVkX1+qMR0+DRJEm7n0PGgwlwg=",
-			"to_date" : "U2FsdGVkX1+wl8ovrUQwIfEYPbv/v3Y=",
+			"to_date" : "U2FsdGVkX1+6AFMgScHkjbdwStnZin8=",
 			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
 			"major" : "U2FsdGVkX19u5JnEuvjPMUJkPCCunEHz4kz9Hv0hux213Oc5Cw==",
 			"degree" : "U2FsdGVkX18fu+mXVsM95yQC4NhzjQ=="
