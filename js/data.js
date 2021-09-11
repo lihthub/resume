@@ -38,7 +38,7 @@ window.resume = {
 			"company" : "北京北控伟仕软件工程技术有限公司",
 			"position" : "Java工程师",
 			"city" : "北京",
-			"description" : "负责移动医疗全流程微信平台、北京社会保险管理信息系统（五险系统）的前后端开发工作"
+			"description" : "负责北京社会保险管理信息系统（五险系统）的前后端开发工作"
 		}
 	],
 	"project_exp" :
@@ -63,13 +63,6 @@ window.resume = {
 			"project_name" : "神州数码云安全管理平台",
 			"position" : "Java工程师",
 			"description" : "云安全管理平台用于管理神州数码安全云Saas服务平台，便于用户将自己的网站申请接入神州数码云Web防火墙用于安全防护，免受黑客威胁。共有三个模块：<br>1. 云防御——CDN加速、防Ddos、防跨站、防注入、防盗链、防篡改、防挂马、防CC攻击等，云Web防火墙保护网站免受黑客威胁<br>2. 智能终端管理——移动设备管理、移动应用管理、移动内容管理<br>3. 安全渗透扫描——黑白盒扫描、修复前安全评估报告、定制化的网站安全防护规则、修复后网站安全评估对比<br><br>后端技术：Spring Framework, Spring Data JPA, Shiro, MySQL<br>前端技术：Bootstrap, jQuery, Sea.js<br><br>本人负责该项目云防御模块的后端开发、前端js数据绑定以及前端部分 JavaScript 插件的调优。"
-		},
-		{
-			"form_date" : "2015.06",
-			"to_date" : "2016.02",
-			"project_name" : "移动医疗全流程微信平台",
-			"position" : "Java工程师",
-			"description" : "全流程微信平台是借助微信公众号进行移动端辅助医疗服务的应用，需接入医院信息系统（HIS）。包含的功能有：<br>1. 关于医院——医院概况，科室介绍，专家介绍，科室分布，医院动态，来院导航<br>2. 服务——预约挂号，报告查询，排队叫号<br>3. 我的——个人信息，订单管理，满意度调查，在线支付（非菜单项）<br><br>主要技术：Spring Framework, MyBatis, MySQL, ActiveMQ, Bootstrap, jQuery Moblie<br><br>本人负责绍兴第二医院、内蒙古国际蒙医医院、石家庄市藁城人民医院的微信公众号平台的前后端功能模块的开发，以及后期部署与实施，并去医院现场同院方HIS系统技术人员进行联合调试。"
 		}
 	],
 	"professional_skills" : "1. 有多年Java后端开发经验，掌握Java语言特性与常用设计模式，了解JVM调优、并发与多线程等技术<br>2. 熟悉Web主流框架的实现原理及设计思想，如Spring Framework、Spring Boot、Spring Cloud、MyBatis等<br>3. 熟悉MySQL海量数据存储、架构设计及其性能优化，熟悉数据库中间件ShardingSphere<br>4. 熟悉团队协作(Git, Maven)、容器与代理(Tomcat, Nginx)、JVM相关(JMC, jstack, jmap, jstat, btrace)、Linux系统分析(vmstat, iostat, ifstat, netstat, dstat)等常用工具集<br>5. 熟悉大型分布式架构、微服务架构的设计与开发，熟悉分布式缓存(Redis)、分布式消息服务中间件(RabbitMQ, RocketMQ, Kafka)、分布式搜索引擎(Elasticsearch, ELK)等架构的应用",
