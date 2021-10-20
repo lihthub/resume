@@ -17,6 +17,14 @@ window.resume = {
 	"work_exp" :
 	[
 		{
+			"form_date" : "2021.09",
+			"to_date" : "today",
+			"company" : "鼎捷软件股份有限公司江苏分公司",
+			"position" : "Java资深工程师",
+			"city" : "南京",
+			"description" : "负责鼎捷DAP微服务平台的子平台API平台的设计与开发工作"
+		},
+		{
 			"form_date" : "2019.03",
 			"to_date" : "2021.06",
 			"company" : "江苏敏捷科技股份有限公司",
