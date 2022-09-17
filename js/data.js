@@ -18,11 +18,11 @@ window.resume = {
 	[
 		{
 			"form_date" : "2021.09",
-			"to_date" : "today",
+			"to_date" : "至今",
 			"company" : "鼎捷软件股份有限公司江苏分公司",
 			"position" : "Java资深工程师",
 			"city" : "南京",
-			"description" : "负责鼎捷DAP微服务平台的子平台API平台的设计与开发工作"
+			"description" : "1. 负责鼎捷DAP微服务平台的子平台API平台的设计与开发工作；<br>2. 负责鼎捷云开发者门户后端设计与开发工作；<br>3. 负责鼎捷Athena低代码平台后端设计与开发工作"
 		},
 		{
 			"form_date" : "2019.03",
