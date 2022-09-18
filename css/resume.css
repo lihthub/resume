@@ -1,6 +1,6 @@
 body {
 	background-color: #fff;
-    font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
     font-size: 14px;
     letter-spacing: 0.5px;
     -webkit-font-smoothing: subpixel-antialiased;
