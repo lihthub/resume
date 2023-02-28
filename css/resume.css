@@ -120,6 +120,9 @@ body {
 	min-height: 5px;
 	float: right;
 }
+.item-detail .comment {
+	color: gray;
+}
 .item-detail .timeline .timeline-right.no-timeline {
 	padding: 5px 8px 0px 18px;
 }

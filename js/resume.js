@@ -59,9 +59,9 @@ $(function() {
 		}
 		content += '</div><div class="exp-title"><i class="fa fa-building-o icon-color" aria-hidden="true"></i> ' + workExp[i].company + '&nbsp;&nbsp;<i class="fa fa-tag icon-color" aria-hidden="true"></i> ' + workExp[i].position + '&nbsp;&nbsp;<i class="fa fa-map-marker icon-color" aria-hidden="true"></i> ' + workExp[i].city + '</div></div>';
 		if (workExp.length > 1 && i != workExp.length - 1) {
-			content += '<div class="timeline"><div class="timeline-right has-timeline">' + workExp[i].description + '</div></div>';
+			content += '<div class="timeline"><div class="timeline-right has-timeline comment">' + workExp[i].description + '</div></div>';
 		} else {
-			content += '<div class="timeline"><div class="timeline-right no-timeline">' + workExp[i].description + '</div></div>';
+			content += '<div class="timeline"><div class="timeline-right no-timeline comment">' + workExp[i].description + '</div></div>';
 		}
 	}
 
