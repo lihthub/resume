@@ -121,6 +121,7 @@ body {
 	float: right;
 }
 .item-detail .comment {
+	font-size: 13px;
 	color: gray;
 }
 .item-detail .timeline .timeline-right.no-timeline {
