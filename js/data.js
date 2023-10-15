@@ -12,7 +12,7 @@ window.resume = {
 	"email" : "lihaitaomail@126.com",
 	"github" : "https://github.com/lihthub",
 	"profile_photo" : "images/lihaitao.png",
-	"position_applied" : "前端工程师",
+	"position_applied" : "Java工程师",
 	"work_city" : "南京",
 	"work_exp" :
 	[
@@ -22,7 +22,7 @@ window.resume = {
 			"company" : "鼎捷软件股份有限公司江苏分公司",
 			"position" : "资深Java工程师",
 			"city" : "南京",
-			"description" : "1. 负责鼎捷 PaaS 微服务平台开发<br>2. 负责鼎捷云开发者门户后端开发<br>3. 负责鼎捷 Athena 开发平台低代码模块后端开发"
+			"description" : "1. 负责鼎捷 PaaS 微服务平台开发<br>2. 负责鼎捷 PaaS 服务编排系统开发<br>3. 负责鼎捷云开发者门户后端开发<br>4. 负责鼎捷 Athena 开发平台低代码模块后端开发"
 		},
 		{
 			"form_date" : "2019.03",
@@ -74,15 +74,8 @@ window.resume = {
 			"to_date" : "U2FsdGVkX1+6AFMgScHkjbdwStnZin8=",
 			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
 			"major" : "U2FsdGVkX19u5JnEuvjPMUJkPCCunEHz4kz9Hv0hux213Oc5Cw==",
-			"degree" : "U2FsdGVkX190i0mpnrFqOKLYxn92EBnPj29f6n7acLuk6g=="
-		},
-		{
-			"form_date" : "U2FsdGVkX1+qMR0+DRJEm7n0PGgwlwg=",
-			"to_date" : "U2FsdGVkX19TZa7dhd+norjyusymCpk=",
-			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
-			"major" : "U2FsdGVkX1+yZNLJXfNi1JxBRcq4jMHc86BwKQ/PAjSXsTsg5g==",
-			"degree" : "U2FsdGVkX19WWidz9jHx+ykfxJ3TKwYrl4oPEOY9otNW1Q=="
+			"degree" : "U2FsdGVkX1/YYWjxGdCEEIFxIY9gXQ=="
 		}
 	],
-	"self_evaluation" : ""
+	"self_evaluation" : "一直以来我对软件开发都充满着极大的热情，对互联网领域的技术变化有敏锐的嗅觉。会经常阅读开源技术网站，有较强的学习能力，喜欢钻研新技术，会自己私下开发一些小例子发布到开源网站，对自己的代码质量有较高要求，喜欢编写有创造性的、优雅的代码，对项目的技术攻坚、架构设计比较感兴趣，未来我将以技术、项目管理方向为发展目标努力成为一名优秀的资深开发工程师。"
 };
