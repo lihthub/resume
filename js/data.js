@@ -71,7 +71,7 @@ window.resume = {
 	[
 		{
 			"form_date" : "U2FsdGVkX1+qMR0+DRJEm7n0PGgwlwg=",
-			"to_date" : "U2FsdGVkX1+6AFMgScHkjbdwStnZin8=",
+			"to_date" : "U2FsdGVkX18iF66tlf3EGXxwZA7K8BA=",
 			"school" : "U2FsdGVkX1/AU+G7TIFmQ9LgkcK01zoSAELHE6g8laVnKA==",
 			"major" : "U2FsdGVkX19u5JnEuvjPMUJkPCCunEHz4kz9Hv0hux213Oc5Cw==",
 			"degree" : "U2FsdGVkX1/YYWjxGdCEEIFxIY9gXQ=="
